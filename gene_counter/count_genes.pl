@@ -12,6 +12,8 @@ if (!@ARGV) {
 }
 
 $maxcount=0;
+$patt="";
+$freq="";
 %genes = ();
 
 open(LOADFILE, "$ARGV[0]") || die "Can't open loadfile: $!\n";
